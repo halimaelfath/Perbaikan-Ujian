@@ -1,5 +1,4 @@
-print("Menggunakan while loop:")
-i = 1
-while i <= 5:
+print("Angka ganjil dari 1 sampai 10:")
+for i in range(1, 11, 2):  # Mulai dari 1, hingga 10, langkah = 2
     print(i)
-    i += 1
+
